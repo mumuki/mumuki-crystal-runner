@@ -5,12 +5,12 @@ require 'version'
 
 
 Gem::Specification.new do |spec|
-  spec.name          = 'mumuki-ruby-runner'
+  spec.name          = 'mumuki-crystal-runner'
   spec.version       = CrystalVersionHook::VERSION
   spec.authors       = ['Franco Leonardo Bulgarelli']
   spec.email         = ['franco@mumuki.org']
   spec.summary       = 'Ruby Runner for Mumuki'
-  spec.homepage      = 'http://github.com/mumuki/mumuki-ruby-server'
+  spec.homepage      = 'http://github.com/mumuki/mumuki-crystal-runner'
   spec.license       = 'MIT'
 
   spec.files         = Dir['lib/**/**']
